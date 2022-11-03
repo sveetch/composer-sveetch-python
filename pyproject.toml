@@ -1,0 +1,10 @@
+[project]
+name = "Sample"
+
+[tool.project_composer]
+collection = [
+    "ping",
+    "bar",
+    "foo",
+]
+repository = "application_repository"
